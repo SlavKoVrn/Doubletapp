@@ -31,4 +31,21 @@ cd Doubletapp
 ```
 conposer update
 ```
+Настроить доступ к базе данных
+```
+/config/db.php
+<?php
+
+return [
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+    'username' => 'root',
+    'password' => '',
+    'charset' => 'utf8',
+];
+```
+Создание таблиц базы данных
+```
+yii migrate/up
+```
 
