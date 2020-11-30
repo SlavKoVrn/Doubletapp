@@ -20,18 +20,25 @@
 ```
 
 <h2>Развернуть сайт</h2>
+
 ```
 git clone https://github.com/SlavKoVrn/Doubletapp
 ```
+
 <h3>перейти в каталог Doubletapp</h3>
+
 ```
 cd Doubletapp
 ```
+
 <h3>Установить библиотеки</h3>
+
 ```
 conposer update
 ```
+
 <h3>Настроить доступ к базе данных</h3>
+
 ```
 /config/db.php
 <?php
@@ -44,9 +51,12 @@ return [
     'charset' => 'utf8',
 ];
 ```
+
 <h3>Создание таблиц базы данных</h3>
+
 ```
 yii migrate/up
 ```
+
 <h3>Установить корень сайта в каталог /web</h3>
 
