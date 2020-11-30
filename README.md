@@ -60,3 +60,15 @@ yii migrate/up
 
 <h3>Установить корень сайта в каталог /web</h3>
 
+<h2>Тестирование работы</h2>
+
+<h3>Установить константу API_SECRET</h3>
+
+```
+/config/params.php
+<?php
+return [
+    ...
+    'API_SECRET' => '95bf06e345d394ba88873c7de11a7d9d',
+];
+```
