@@ -9,7 +9,7 @@
 
 Демо версия [doubletapp.kadastrcard.ru](http://doubletapp.kadastrcard.ru/site/login)
 
-------------------------------------
+```
 Логин:  admin
 Пароль: admin
 
@@ -17,5 +17,5 @@
 
 Логин:  demo
 Пароль: demo
-------------------------------------
+```
 
