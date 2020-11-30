@@ -72,3 +72,112 @@ return [
     'API_SECRET' => '95bf06e345d394ba88873c7de11a7d9d',
 ];
 ```
+
+<h3>Реализованы следующие endpoint'ы</h3>
+
+GET http://doubletapp.kadastrcard.ru/categories
+```
+[
+    {
+        "id": 1,
+        "name": "People and things",
+        "icon": "http://kadastrcard.ru/images/yii2.png"
+    },
+    {
+        "id": 2,
+        "name": "Appearance and character",
+        "icon": null
+    },
+    {
+        "id": 3,
+        "name": "Time and dates",
+        "icon": null
+    },
+    {
+        "id": 4,
+        "name": "Фразовые глаголы",
+        "icon": null
+    }
+]
+```
+
+GET http://doubletapp.kadastrcard.ru/levels
+```
+[
+    {
+        "id": 1,
+        "name": "Elementary",
+        "code": "A1"
+    },
+    {
+        "id": 2,
+        "name": "pre-intermediate",
+        "code": ""
+    },
+    {
+        "id": 3,
+        "name": "intermediate",
+        "code": ""
+    },
+    {
+        "id": 4,
+        "name": "upper_intermediate",
+        "code": ""
+    }
+]
+```
+
+GET http://doubletapp.kadastrcard.ru/themes
+```
+[
+    {
+        "id": 1,
+        "category": 1,
+        "level": 1,
+        "name": "Relationship",
+        "photo": "http://kadastrcard.ru/images/yii2.png"
+    },
+    {
+        "id": 2,
+        "category": 2,
+        "level": 2,
+        "name": "Human body",
+        "photo": null
+    },
+    {
+        "id": 3,
+        "category": 3,
+        "level": 3,
+        "name": "Face",
+        "photo": null
+    },
+    {
+        "id": 4,
+        "category": 4,
+        "level": 4,
+        "name": "Things",
+        "photo": null
+    }
+]
+```
+
+GET http://doubletapp.kadastrcard.ru/themes/1?s[category]=1&s[level]=1&expand=words
+```
+{
+    "id": 1,
+    "category": 1,
+    "level": 1,
+    "name": "Relationship",
+    "photo": "http://kadastrcard.ru/images/yii2.png",
+    "words": [
+        {
+            "id": 1,
+            "name": "to ask out",
+            "translation": "Пригласить на свидание",
+            "transcription": "tuː ɑːsk aʊt",
+            "example": "John has asked Mary out several times.",
+            "sound": "http://kadastrcard.ru/images/ring.wav"
+        }
+    ]
+}
+```
