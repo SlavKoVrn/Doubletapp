@@ -102,7 +102,7 @@ class Themes extends \yii\db\ActiveRecord
 
     public function getWords()
     {
-        return $this->hasMany(Words::class, ['id' => 'word_id'])->viaTable('Word2theme', ['theme_id' => 'id']);
+        return $this->hasMany(Words::class, ['id' => 'word_id'])->viaTable('word2theme', ['theme_id' => 'id']);
     }
 
     public function formName()
