@@ -7,7 +7,7 @@
     <br>
 </p>
 
-<strong>Демо версия</strong> [doubletapp.kadastrcard.ru](http://doubletapp.kadastrcard.ru/site/login)
+<h2>Демо версия</h2> [doubletapp.kadastrcard.ru](http://doubletapp.kadastrcard.ru/site/login)
 
 ```
 Логин:  admin
