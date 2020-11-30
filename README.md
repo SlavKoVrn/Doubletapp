@@ -19,19 +19,19 @@
 Пароль: demo
 ```
 
-Развернуть сайт
+<h2>Развернуть сайт</h2>
 ```
 git clone https://github.com/SlavKoVrn/Doubletapp
 ```
-перейти в каталог Doubletapp
+<strong>перейти в каталог Doubletapp</strong>
 ```
 cd Doubletapp
 ```
-Установить библиотеки
+<strong>Установить библиотеки</strong>
 ```
 conposer update
 ```
-Настроить доступ к базе данных
+<strong>Настроить доступ к базе данных</strong>
 ```
 /config/db.php
 <?php
@@ -44,9 +44,9 @@ return [
     'charset' => 'utf8',
 ];
 ```
-Создание таблиц базы данных
+<strong>Создание таблиц базы данных</strong>
 ```
 yii migrate/up
 ```
-Установить корень сайта в каталог /web
+<strong>Установить корень сайта в каталог /web</strong>
 
