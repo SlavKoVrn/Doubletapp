@@ -41,11 +41,11 @@ use yii\widgets\ActiveForm;
 <?php
 $js=<<<JS
     $('#look').on('click',function(){
-        if ($('#themes-photo').val()==''){
+        if ($('#s-photo').val()==''){
             alert('Укажите ссылку на фото');
             return;
         }
-        $('#img_look').attr('src',$('#themes-photo').val());
+        $('#img_look').attr('src',$('#s-photo').val());
     });
 JS;
 $this->registerJs($js);

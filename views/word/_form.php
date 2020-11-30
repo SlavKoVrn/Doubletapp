@@ -58,11 +58,11 @@ use kartik\select2\Select2;
 <?php
 $js=<<<JS
     $('#look').on('click',function(){
-        if ($('#words-sound').val()==''){
+        if ($('#s-sound').val()==''){
             alert('Укажите ссылку на звук');
             return;
         }
-        $('#player').attr('src',$('#words-sound').val());
+        $('#player').attr('src',$('#s-sound').val());
         document.getElementById('player').play();
     });
 JS;

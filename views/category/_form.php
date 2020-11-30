@@ -35,11 +35,11 @@ use yii\widgets\ActiveForm;
 <?php
 $js=<<<JS
     $('#look').on('click',function(){
-        if ($('#categories-icon').val()==''){
+        if ($('#s-icon').val()==''){
             alert('Укажите ссылку на картинку');
             return;
         }
-        $('#img_look').attr('src',$('#categories-icon').val());
+        $('#img_look').attr('src',$('#s-icon').val());
     });
 JS;
 $this->registerJs($js);
