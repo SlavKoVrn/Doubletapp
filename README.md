@@ -181,3 +181,15 @@ GET http://doubletapp.kadastrcard.ru/themes/1?s[category]=1&s[level]=1&expand=wo
     ]
 }
 ```
+
+GET http://doubletapp.kadastrcard.ru/words/1
+```
+{
+    "id": 1,
+    "name": "to ask out",
+    "translation": "Пригласить на свидание",
+    "transcription": "tuː ɑːsk aʊt",
+    "example": "John has asked Mary out several times.",
+    "sound": "http://kadastrcard.ru/images/ring.wav"
+}
+```
