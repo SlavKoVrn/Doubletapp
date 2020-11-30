@@ -19,3 +19,16 @@
 Пароль: demo
 ```
 
+Развернуть сайт
+```
+git clone https://github.com/SlavKoVrn/Doubletapp
+```
+перейти в каталог Doubletapp
+```
+cd Doubletapp
+```
+Установить библиотеки
+```
+conposer update
+```
+
