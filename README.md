@@ -127,7 +127,7 @@ GET http://doubletapp.kadastrcard.ru/levels
 ]
 ```
 
-GET http://doubletapp.kadastrcard.ru/themes
+GET http://doubletapp.kadastrcard.ru/themes?s[category]=1&s[level]=1
 ```
 [
     {
@@ -136,32 +136,11 @@ GET http://doubletapp.kadastrcard.ru/themes
         "level": 1,
         "name": "Relationship",
         "photo": "http://kadastrcard.ru/images/yii2.png"
-    },
-    {
-        "id": 2,
-        "category": 2,
-        "level": 2,
-        "name": "Human body",
-        "photo": null
-    },
-    {
-        "id": 3,
-        "category": 3,
-        "level": 3,
-        "name": "Face",
-        "photo": null
-    },
-    {
-        "id": 4,
-        "category": 4,
-        "level": 4,
-        "name": "Things",
-        "photo": null
     }
 ]
 ```
 
-GET http://doubletapp.kadastrcard.ru/themes/1?s[category]=1&s[level]=1&expand=words
+GET http://doubletapp.kadastrcard.ru/themes/1?expand=words
 ```
 {
     "id": 1,
