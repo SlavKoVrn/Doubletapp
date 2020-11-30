@@ -7,5 +7,15 @@
     <br>
 </p>
 
-Демо версия [doubletapp.kadastrcard.ru](http://doubletapp.kadastrcard.ru)
+Демо версия [doubletapp.kadastrcard.ru](http://doubletapp.kadastrcard.ru/site/login)
+
+------------------------------------
+Логин:  admin
+Пароль: admin
+
+или
+
+Логин:  demo
+Пароль: demo
+------------------------------------
 
