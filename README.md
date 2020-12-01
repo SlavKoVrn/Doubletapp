@@ -77,6 +77,7 @@ return [
 запрос к RESTfull API должен содержать заголовок
 Secret: 95bf06e345d394ba88873c7de11a7d9d
 иначе будет ответ
+
 ```
 {
     "name": "Forbidden",
@@ -89,6 +90,7 @@ Secret: 95bf06e345d394ba88873c7de11a7d9d
 
 GET http://doubletapp.kadastrcard.ru/categories
 Secret: 95bf06e345d394ba88873c7de11a7d9d
+
 ```
 [
     {
@@ -116,6 +118,7 @@ Secret: 95bf06e345d394ba88873c7de11a7d9d
 
 GET http://doubletapp.kadastrcard.ru/levels
 Secret: 95bf06e345d394ba88873c7de11a7d9d
+
 ```
 [
     {
@@ -143,6 +146,7 @@ Secret: 95bf06e345d394ba88873c7de11a7d9d
 
 GET http://doubletapp.kadastrcard.ru/themes?s[category]=1&s[level]=1
 Secret: 95bf06e345d394ba88873c7de11a7d9d
+
 ```
 [
     {
@@ -157,6 +161,7 @@ Secret: 95bf06e345d394ba88873c7de11a7d9d
 
 GET http://doubletapp.kadastrcard.ru/themes/1?expand=words
 Secret: 95bf06e345d394ba88873c7de11a7d9d
+
 ```
 {
     "id": 1,
@@ -179,6 +184,7 @@ Secret: 95bf06e345d394ba88873c7de11a7d9d
 
 GET http://doubletapp.kadastrcard.ru/words/1
 Secret: 95bf06e345d394ba88873c7de11a7d9d
+
 ```
 {
     "id": 1,
