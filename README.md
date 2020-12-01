@@ -74,8 +74,21 @@ return [
 ```
 
 <h3>Реализованы следующие endpoint'ы</h3>
+запрос к RESTfull API должен содержать заголовок
+Secret: 95bf06e345d394ba88873c7de11a7d9d
+иначе будет ответ
+```
+{
+    "name": "Forbidden",
+    "message": "У Вас нет доступа",
+    "code": 0,
+    "status": 403,
+    "type": "yii\\web\\ForbiddenHttpException"
+}
+```
 
 GET http://doubletapp.kadastrcard.ru/categories
+Secret: 95bf06e345d394ba88873c7de11a7d9d
 ```
 [
     {
@@ -102,6 +115,7 @@ GET http://doubletapp.kadastrcard.ru/categories
 ```
 
 GET http://doubletapp.kadastrcard.ru/levels
+Secret: 95bf06e345d394ba88873c7de11a7d9d
 ```
 [
     {
@@ -128,6 +142,7 @@ GET http://doubletapp.kadastrcard.ru/levels
 ```
 
 GET http://doubletapp.kadastrcard.ru/themes?s[category]=1&s[level]=1
+Secret: 95bf06e345d394ba88873c7de11a7d9d
 ```
 [
     {
@@ -141,6 +156,7 @@ GET http://doubletapp.kadastrcard.ru/themes?s[category]=1&s[level]=1
 ```
 
 GET http://doubletapp.kadastrcard.ru/themes/1?expand=words
+Secret: 95bf06e345d394ba88873c7de11a7d9d
 ```
 {
     "id": 1,
@@ -162,6 +178,7 @@ GET http://doubletapp.kadastrcard.ru/themes/1?expand=words
 ```
 
 GET http://doubletapp.kadastrcard.ru/words/1
+Secret: 95bf06e345d394ba88873c7de11a7d9d
 ```
 {
     "id": 1,
